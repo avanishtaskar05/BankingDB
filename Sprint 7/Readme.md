@@ -1,5 +1,5 @@
 CREATE TABLE Department
-(
+(  
     Department_ID INT PRIMARY KEY,  
     Department_Name VARCHAR(50),     
     Location VARCHAR(50)  
