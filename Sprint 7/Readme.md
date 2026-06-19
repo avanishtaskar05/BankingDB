@@ -44,6 +44,7 @@ INSERT INTO Project VALUES
 (204, 'Digital Campaign', 300000, 4),  
 (205, 'Supply Chain System', 450000, 5);  
 
+_________________________________________________________________  
 Using Select and Aggregate Functions  
 _________________________________________________________________
 select count(*) as total_count from department;
@@ -70,7 +71,8 @@ group by employee_name;
 
 select * from project  
 where project_name="Supply Chain System" and budge > 50000;  
-  
+
+_________________________________________________________________  
 Using Join  
 _________________________________________________________________  
 select dept.department_name,dept.location,  
@@ -78,7 +80,8 @@ emp.employee_name,emp.salary
 from department dept  
 join employee  emp  
 on dept.department_id = emp.department_id;  
-  
+
+_________________________________________________________________  
 Using Join with Group By  
 _________________________________________________________________  
 select dept.department_name,max(emp.salary) as max_salary    
