@@ -1,4 +1,4 @@
-Creating database posts_db  
+--Creating database posts_db  
 
 ---------------------------------------------  
 create database if not exists posts_db;    
