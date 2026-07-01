@@ -31,4 +31,4 @@ select id,likes, dense_rank() over (order by likes desc) as rank from posts;
 
 --using rank with over()  
 ________________________________________________________________________________________   
-select id,likes,rank() over (order by likes desc) as rank from posts;   
+select id,likes,rank() over (order by likes desc) as rank from posts;
